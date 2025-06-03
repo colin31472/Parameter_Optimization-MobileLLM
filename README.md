@@ -3,7 +3,7 @@
 This repository contains the code and reports for the course project **"Efficient Parameter Optimization for Compact Language Models"** at POSTECH.
 
 ## Repository Structure
-.
+```
 ├── code/
 │ ├── 1. Baseline_134.0M.py
 │ ├── 2. Double up-projection_148.1M.py
@@ -17,7 +17,7 @@ This repository contains the code and reports for the course project **"Efficien
 ├── Final Paper 20220665 유영준.pdf
 ├── Project Proposal.pdf
 └── Project Slides.pdf
-
+```
 
 ## Project Summary
 
