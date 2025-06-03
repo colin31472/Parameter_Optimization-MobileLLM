@@ -15,8 +15,8 @@ This repository contains the code and reports for the course project **"Efficien
 │ ├── 8. Enhanced Residual_135.4M.py
 │ └── 9. Deep Thinking.py
 ├── Final Paper.pdf
-└── Project Slides.pdf
 ```
+
 
 ## Project Summary
 
@@ -24,24 +24,25 @@ This project explores how to construct a compact and high-performing language mo
 
 ### Techniques Explored
 
-- **Baseline (MobileLLM-inspired)**: A GPT-2 decoder-based compact LLM architecture.
+#### MobileLLM-Inspired Techniques
+- **Baseline**: A GPT-2 decoder-based compact LLM architecture.
 - **Double Up-Projection**: Enhances FFN expressiveness using dual projection paths.
 - **SwiGLU Activation**: Replaces ReLU for better performance in smaller models.
 - **Embedding Sharing**: Reuses input/output embeddings to save parameters.
 - **GQA (Grouped-Query Attention)**: Reduces key-value heads to optimize attention.
 - **Layer Sharing**: Shares parameters across repeated blocks to minimize model size.
-- **Enhanced Residual Connection**: Learnable α-weighted skip connections.
-- **Deep Thinking**: Multi-pass reasoning for improved input comprehension.
+
+#### Additional Techniques Proposed in This Project
+- **Enhanced Residual Connection**: Adds learnable α-weighted skip connections to improve gradient flow and dynamic mixing.
+- **Deep Thinking**: Introduces iterative multi-pass reasoning across the full input, enabling refined contextual understanding beyond standard forward passes.
 
 ## Results
 
-Models were trained on the Wikitext-103 dataset and evaluated by perplexity. Integrating the above techniques resulted in significant performance improvement, especially with Deep Thinking applied.
+Models were trained on the Wikitext-103 dataset and evaluated using perplexity. Each added technique progressively improved performance, with the **Deep Thinking** model achieving the lowest perplexity.
 
 ## Documents
 
 - **Final Paper**: Full write-up of methods, results, and analysis.
-- **Proposal**: Initial project plan and goals.
-- **Slides**: Summary of work presented in the final project session.
 
 ## Author
 
