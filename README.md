@@ -1,6 +1,6 @@
 # Efficient Parameter Optimization for Compact Language Models
 
-This repository contains the code and reports for the course project **"Efficient Parameter Optimization for Compact Language Models"** at POSTECH.
+This repository contains the code and reports for project **"Efficient Parameter Optimization for Compact Language Models"** at POSTECH.
 
 ## Repository Structure
 ```
