@@ -14,8 +14,7 @@ This repository contains the code and reports for the course project **"Efficien
 │ ├── 7. Layer Sharing_135.4M.py
 │ ├── 8. Enhanced Residual_135.4M.py
 │ └── 9. Deep Thinking.py
-├── Final Paper 20220665 유영준.pdf
-├── Project Proposal.pdf
+├── Final Paper.pdf
 └── Project Slides.pdf
 ```
 
